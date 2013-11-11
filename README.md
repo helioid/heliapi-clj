@@ -4,7 +4,9 @@ A Clojure library designed to connect to the Helioid Categorization API.
 
 ## Installation
 
+```clojure
 [heliapi "0.0.1"]
+```
 
 ## Usage
 
@@ -13,6 +15,9 @@ A Clojure library designed to connect to the Helioid Categorization API.
 
 (map #(:name %)
      (:categories (helioid/web "helioid")))
+```
+
+```clojure
 => ("search refinement"
     "search engine"
     "results"
